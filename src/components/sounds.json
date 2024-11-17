@@ -1,0 +1,122 @@
+[
+  {
+    "category": "others",
+    "name": "その他",
+    "sounds": [
+      {
+        "path": "scan.m4a",
+        "name": "商品をスキャンしてください"
+      },
+      {
+        "path": "thankyou.m4a",
+        "name": "ご利用ありがとうございました"
+      },
+      {
+        "path": "desu.m4a",
+        "name": "です"
+      },
+      {
+        "path": "yen.m4a",
+        "name": "円"
+      },
+      {
+        "path": "scanner.m4a",
+        "name": "ピ♪"
+      },
+      {
+        "path": "touch.m4a",
+        "name": "ポヨ♪（タッチ音）"
+      }
+    ]
+  },
+  {
+    "category": "numberHundreds",
+    "name": "数字（百の位）",
+    "sounds": [
+      {
+        "path": "number/100.m4a",
+        "name": "100"
+      },
+      {
+        "path": "number/200.m4a",
+        "name": "200"
+      },
+      {
+        "path": "number/600.m4a",
+        "name": "600"
+      },
+      {
+        "path": "number/700.m4a",
+        "name": "700"
+      },
+      {
+        "path": "number/800.m4a",
+        "name": "800"
+      }
+    ]
+  },
+  {
+    "category": "number",
+    "name": "数字（100未満）",
+    "sounds": [
+      {
+        "path": "number/9.m4a",
+        "name": "9"
+      },
+      {
+        "path": "number/29.m4a",
+        "name": "29"
+      },
+      {
+        "path": "number/39.m4a",
+        "name": "39"
+      },
+      {
+        "path": "number/48.m4a",
+        "name": "48"
+      },
+      {
+        "path": "number/49.m4a",
+        "name": "49"
+      },
+      {
+        "path": "number/68.m4a",
+        "name": "68"
+      },
+      {
+        "path": "number/93.m4a",
+        "name": "93"
+      }
+    ]
+  },
+  {
+    "category": "paymant",
+    "name": "支払い",
+    "sounds": [
+      {
+        "path": "payment/method.m4a",
+        "name": "お支払方法をお選びください"
+      },
+      {
+        "path": "payment/credit_card_pretouch.m4a",
+        "name": "カードを読ませてください（クレジットカード）"
+      },
+      {
+        "path": "payment/credit_card_aftertouch.m4a",
+        "name": "カードをお取りください（クレジットカード）"
+      },
+      {
+        "path": "payment/quicpay_pretouch.m4a",
+        "name": "音が鳴るまでタッチしてください（QuicPay）"
+      },
+      {
+        "path": "payment/quicpay.m4a",
+        "name": "QuicPay♪"
+      },
+      {
+        "path": "payment/receipt.m4a",
+        "name": "レシートをお取りください"
+      }
+    ]
+  }
+]
