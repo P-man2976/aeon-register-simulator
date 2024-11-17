@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "まいばすけっと セルフレジシミュレーター",
     description: "まいばすけっとのセルフレジの操作を疑似体験できます",
+    type: 'website',
+    url: 'https://aeon-register-simulator.vercel.app/'
   },
   twitter: {
     card: 'summary_large_image'
