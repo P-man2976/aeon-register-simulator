@@ -12,7 +12,7 @@ export function Editor() {
   const onAdd = (text: string) => {
     setText((prev) => {
       if (!textareaRef.current) return prev;
-      
+
       const startPos = textareaRef.current.selectionStart;
       const endPos = textareaRef.current.selectionEnd;
       const before = prev.substring(0, startPos);

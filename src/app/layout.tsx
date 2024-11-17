@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Mochiy_Pop_One } from 'next/font/google'
+import { Mochiy_Pop_One } from "next/font/google";
 import "./globals.css";
 
-const mochiyPopOne = Mochiy_Pop_One({ subsets: ['latin'], variable: '--font-mochiy', weight: "400" });
+const mochiyPopOne = Mochiy_Pop_One({
+  subsets: ["latin"],
+  variable: "--font-mochiy",
+  weight: "400",
+});
 
 export const metadata: Metadata = {
   title: "まいばすけっと セルフレジシミュレーター",
@@ -10,12 +14,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: "まいばすけっと セルフレジシミュレーター",
     description: "まいばすけっとのセルフレジの操作を疑似体験できます",
-    type: 'website',
-    url: 'https://aeon-register-simulator.vercel.app/'
+    type: "website",
+    url: "https://aeon-register-simulator.vercel.app/",
   },
   twitter: {
-    card: 'summary_large_image'
-  }
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({
@@ -25,11 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${mochiyPopOne.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${mochiyPopOne.variable} antialiased`}>{children}</body>
     </html>
   );
 }

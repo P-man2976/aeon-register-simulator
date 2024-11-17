@@ -30,6 +30,32 @@
     ]
   },
   {
+    "category": "null",
+    "name": "無音",
+    "sounds": [
+      {
+        "path": "null/100.m4a",
+        "name": "無音（0.1s）"
+      },
+      {
+        "path": "null/250.m4a",
+        "name": "無音（0.25s）"
+      },
+      {
+        "path": "null/500.m4a",
+        "name": "無音（0.5s）"
+      },
+      {
+        "path": "null/750.m4a",
+        "name": "無音（0.75s）"
+      },
+      {
+        "path": "null/1000.m4a",
+        "name": "無音（1s）"
+      }
+    ]
+  },
+  {
     "category": "numberHundreds",
     "name": "数字（百の位）",
     "sounds": [

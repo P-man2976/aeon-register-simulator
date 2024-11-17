@@ -17,7 +17,10 @@ export default function Player() {
       flatSounds.find(({ name }) => soundName === name)
     );
 
-    if (soundsArray.includes(undefined)) alert("failed to parse");
+    if (soundsArray.includes(undefined))
+      alert(
+        "文章の解析に失敗しました。間違った文章が入力されていないか確認してください。"
+      );
 
     const soundBufferArray = await Promise.all(
       soundsArray
@@ -55,7 +58,9 @@ export default function Player() {
   return (
     <div className="flex gap-4">
       <Button onClick={onPlay}>再生</Button>
-      <Button className="bg-white/20" onClick={() => setText("")}>リセット</Button>
+      <Button className="bg-white/20" onClick={() => setText("")}>
+        リセット
+      </Button>
     </div>
   );
 }
