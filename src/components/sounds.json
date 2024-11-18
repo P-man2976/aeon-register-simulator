@@ -56,6 +56,16 @@
     ]
   },
   {
+    "category": "numberThousands",
+    "name": "数字（千の位）",
+    "sounds": [
+      {
+        "path": "number/1000.m4a",
+        "name": "1000"
+      }
+    ]
+  },
+  {
     "category": "numberHundreds",
     "name": "数字（百の位）",
     "sounds": [
@@ -106,12 +116,24 @@
         "name": "49"
       },
       {
+        "path": "number/59.m4a",
+        "name": "59"
+      },
+      {
         "path": "number/68.m4a",
         "name": "68"
       },
       {
+        "path": "number/69.m4a",
+        "name": "69"
+      },
+      {
         "path": "number/93.m4a",
         "name": "93"
+      },
+      {
+        "path": "number/99.m4a",
+        "name": "99"
       }
     ]
   },
@@ -133,11 +155,15 @@
       },
       {
         "path": "payment/quicpay_pretouch.m4a",
-        "name": "音が鳴るまでタッチしてください（QuicPay）"
+        "name": "音が鳴るまでタッチしてください（タッチ決済系）"
       },
       {
         "path": "payment/quicpay.m4a",
         "name": "QuicPay♪"
+      },
+      {
+        "path": "payment/transport_ic_3beep.m4a",
+        "name": "ピピピ♪（交通系IC残額1000円以下）"
       },
       {
         "path": "payment/receipt.m4a",
